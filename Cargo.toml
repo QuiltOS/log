@@ -34,3 +34,7 @@ release_max_level_trace = []
 nightly = []
 use_std = []
 default = ["use_std"]
+
+[dependencies.core]
+git = "https://github.com/RustOS-Fork-Holding-Ground/rust"
+branch = "rustos"
